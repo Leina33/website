@@ -1,0 +1,111 @@
+
+
+    body {
+        font-family: 'Work Sans', sans-serif;
+      }
+      .container {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-image:url("https://images.alphacoders.com/469/469439.jpg");
+
+       c
+        text-align:center;
+        text-decoration-color: red;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+  
+    }
+      
+      #overlay {
+          position: fixed;
+          overflow: auto;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          z-index: 2;
+      }
+      
+      nav{
+       max-width: 960px;
+         margin: 0 auto;
+         padding: 10px 0;
+         margin-right: 0%; 
+      }
+      nav > ul{
+       text-align:right; 
+      }
+      nav > ul > li{
+        display:inline-block;
+      }
+      
+       nav>ul>li>a {
+      padding: 18px;
+      margin-right: 0;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: block;
+      color: rgb(255,0,255)
+      }
+      /* .cars{
+        text-align: red;
+        background-color: yellow;
+        border-collapse: collapse;
+        font-size: 50px;
+    } */
+    .cars{
+        text-align:left;
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        color: red;
+    }
+    #description{
+        text-align:left;
+        /*position:absolute;*/
+        left: 5%;
+        bottom:15%;
+        color:black;
+        margin-bottom:30px;
+      
+        /*margin-top:-120px;*/
+        display:flex;
+
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+      }
+     
+      .header{
+        width: 100%;
+        padding: 10px 0;
+        background-color: lightblue;
+        display:bock;
+      }
+      .footer{
+        position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+      
+
+  
+  
+
+      
+    
+

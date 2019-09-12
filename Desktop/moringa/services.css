@@ -1,0 +1,19 @@
+body{
+  
+  background-color: #DEB887;
+  
+    display:flex;
+  }
+  h1{
+    text-align:center;
+    font-family:Sans serif;
+  }
+  .services{
+    column-count:3;
+    text-align:right;
+    position:absolute;
+    bottom:10px;
+    column-rule-width: 1px;
+     color:red;
+     font-size:40px;
+  }

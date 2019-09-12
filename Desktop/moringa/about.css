@@ -1,0 +1,25 @@
+body{
+    background-color:rgb(128, 128, 128);
+  }
+   table,th,td,tr{
+          padding: 15px;
+          border-collapse: collapse;
+          border: 2px solid black;
+          background-color:#fff;
+          float:center;
+   }
+   h1{
+     text-align:left;
+     color:blue;
+   }
+  
+   .images{
+     display:flex;
+     position:relative;
+     background-color:grey;
+   }
+   .discount{
+      text-shadow: 2px 2px yellow;
+      font-size:20px;
+      text-align:center;
+   }
